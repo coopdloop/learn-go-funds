@@ -1,4 +1,4 @@
-h1. Start, go
+Start, go
 
 # Running
 
