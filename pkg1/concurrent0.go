@@ -1,4 +1,4 @@
-package concur0
+package pkg1
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 //	"sync"
 )
 
-func main() {
+func Concur0() {
 //	var wg sync.WaitGroup
 //	wg.Add(1)
 

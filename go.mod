@@ -1,3 +1,3 @@
-module github.com/coopdlop/learn-go-funds/src/concurrent-fun
+module concurrent-fun
 
 go 1.19

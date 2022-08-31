@@ -1,10 +1,10 @@
-package concur1
+package pkg1
 
 import (
 	"fmt"
 )
 
-func main() {
+func Concur1() {
 	c := make(chan string, 2)
 	c <- "hello"
 	c <- "world"

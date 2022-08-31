@@ -1,4 +1,4 @@
-package concur2
+package pkg1
 
 import (
 	"flag"
@@ -12,11 +12,11 @@ var solution bool
 
 func init() {
 	// https://pkg.go.dev/flag
-	flag.BoolVar(&problem, "problem", false, "set true, see problem case")
-	flag.BoolVar(&solution, "solution", false, "set true, see solution case")
+	flag.BoolVar(&problem, "problem", false, "set true, see problem case on concurrent2")
+	flag.BoolVar(&solution, "solution", false, "set true, see solution case on concurrent2")
 }
 
-func main() {
+func Concur2() {
 	c1 := make(chan string)
 	c2 := make(chan string)
 	// Go routine #1
