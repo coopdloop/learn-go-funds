@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/coopdlop/learn-go-funds"
+	"github.com/coopdlop/learn-go-funds/src/concurrent-fun"
 )
 
 var concur0 bool
@@ -21,7 +21,7 @@ func main() {
 
 	// Check if user selected to see the problem output
 	if concur0 {
-		fmt.Println(concur1.main)
+		fmt.Println(concur0.main)
 	}
 
 }
