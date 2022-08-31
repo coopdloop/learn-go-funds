@@ -3,7 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/coopdlop/learn-go-funds/src/concurrent-fun"
+	"learn-go-funds/src/concurrent0"
+	"learn-go-funds/src/concurrent1"
+	"learn-go-funds/src/concurrent2"
 )
 
 var concur0 bool
