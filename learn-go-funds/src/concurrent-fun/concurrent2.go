@@ -1,4 +1,4 @@
-package main
+package concur2
 
 import (
 	"flag"

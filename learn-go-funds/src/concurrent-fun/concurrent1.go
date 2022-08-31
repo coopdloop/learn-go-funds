@@ -1,4 +1,4 @@
-package main
+package concur1
 
 import (
 	"fmt"
